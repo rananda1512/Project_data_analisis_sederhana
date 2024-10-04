@@ -1,8 +1,20 @@
-# Project_data_analisis_sederhana
+# Bike Sharing Dashboard ✨
 
-## First Step
-- Extrack zip file
-- run command "cd dashboard" in shell
+## Setup Environment - Anaconda
+```
+conda create --name main-ds python=3.9
+conda activate main-ds
+pip install -r requirements.txt
+```
+
+## Setup Environment - Shell/Terminal
+```
+mkdir project_data_analisis
+cd project_data_analisis
+pipenv install
+pipenv shell
+pip install -r requirements.txt
+```
 
 ## Run steamlit app
 ```
